@@ -1,9 +1,10 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package First;
 
-public class Box extends Shape {
-    Shape[] ShapesArr;
+import java.util.Arrays;
+
+public class Box extends Shape
+{
+    private Shape[] ShapesArr;
     private int i;
 
     public Box(int a)
@@ -14,7 +15,8 @@ public class Box extends Shape {
 
     public void add(Shape shape)
     {
-        try {
+        try
+        {
             ShapesArr[i] = shape;
             i++;
         }
