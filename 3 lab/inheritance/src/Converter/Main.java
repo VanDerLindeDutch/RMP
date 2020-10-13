@@ -1,10 +1,9 @@
-package Second;
+package Converter;
 
-import Second.Factory.FahrenheitDialog;
-import Second.Factory.KelvinDialog;
-import Second.Factory.ReaumurDialog;
+import Converter.Factory.FahrenheitDialog;
+import Converter.Factory.KelvinDialog;
+import Converter.Factory.ReaumurDialog;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +12,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         double degrees = in.nextDouble();
         int choice;
-        do{
+        do {
             System.out.println("Choose the temperature scale to which you want to convert Celsius degrees:\n" +
                     "1:Kelvin's\n" +
                     "2:Fahrenheit's\n" +
@@ -39,7 +38,7 @@ public class Main {
                     System.out.println("Input a correct number.");
                     break;
             }
-        } while (choice!=0);
+        } while (choice != 0);
         in.close();
 
     }

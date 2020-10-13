@@ -1,4 +1,4 @@
-package Second;
+package Converter;
 
 public class FahrenheitConverter extends BaseConverter {
     public FahrenheitConverter(double degrees) {
@@ -9,6 +9,6 @@ public class FahrenheitConverter extends BaseConverter {
     @Override
     public double convert() {
         System.out.println("Fahrenheit's scale");
-        return(degreesCelsius * 1.8 + 32);
+        return (degreesCelsius * 1.8 + 32);
     }
 }

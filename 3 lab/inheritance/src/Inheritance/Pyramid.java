@@ -1,4 +1,4 @@
-package First;
+package Inheritance;
 
 public class Pyramid extends Shape {
     protected double s, h;

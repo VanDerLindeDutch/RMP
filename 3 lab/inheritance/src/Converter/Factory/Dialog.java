@@ -1,8 +1,6 @@
-package Second.Factory;
+package Converter.Factory;
 
-import Second.BaseConverter;
-
-import java.util.Scanner;
+import Converter.BaseConverter;
 
 public abstract class Dialog {
     public void makeConvertion(double T) {

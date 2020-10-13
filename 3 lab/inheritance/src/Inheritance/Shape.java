@@ -1,26 +1,21 @@
-package First;
+package Inheritance;
 
-public class Shape
-{
+public class Shape {
     protected double volume;
 
-    public Shape()
-    {
+    public Shape() {
     }
 
-    public Shape(double volume)
-    {
+    public Shape(double volume) {
         this.volume = volume;
     }
 
-    protected double getVolume()
-    {
+    protected double getVolume() {
         return volume;
     }
 
     @Override
-    public String toString()
-    {
+    public String toString() {
         return "Shape{" +
                 "volume=" + volume +
                 '}';

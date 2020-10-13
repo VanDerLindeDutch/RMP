@@ -1,7 +1,6 @@
-package Second;
+package Converter;
 
-public class ReaumurConverter extends BaseConverter
-{
+public class ReaumurConverter extends BaseConverter {
     public ReaumurConverter(double degrees) {
         super(degrees);
     }
@@ -9,6 +8,6 @@ public class ReaumurConverter extends BaseConverter
     @Override
     public double convert() {
         System.out.println("Reaumur scale");
-        return(degreesCelsius * 0.8);
+        return (degreesCelsius * 0.8);
     }
 }

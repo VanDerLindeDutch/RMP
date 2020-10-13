@@ -1,6 +1,4 @@
-package Second;
-
-import java.util.Scanner;
+package Converter;
 
 public abstract class BaseConverter {
     protected double degreesCelsius;

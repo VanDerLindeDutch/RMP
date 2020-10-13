@@ -1,4 +1,4 @@
-package Second;
+package Converter;
 
 public class KelvinConverter extends BaseConverter {
     public KelvinConverter(double degrees) {
@@ -9,7 +9,7 @@ public class KelvinConverter extends BaseConverter {
     @Override
     public double convert() {
         System.out.println("Kelvin's scale");
-        return(degreesCelsius + 273.15);
+        return (degreesCelsius + 273.15);
     }
 
 }
