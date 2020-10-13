@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class Shape {
+public abstract class Shape {
     protected double volume;
 
     public Shape() {
