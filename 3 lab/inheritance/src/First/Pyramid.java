@@ -1,5 +1,6 @@
-public class Pyramid extends Shape
-{
+package First;
+
+public class Pyramid extends Shape {
     protected double s, h;
 
     public Pyramid(double s, double h) {

@@ -1,23 +1,29 @@
+package First;
+
 public class Cylinder  extends Pyramid
 {
     private double height;
 
-    public Cylinder(double s, double h, double height) {
+    public Cylinder(double s, double h, double height)
+    {
         super(s, h);
         this.height = height;
     }
 
-    public Cylinder(double height) {
+    public Cylinder(double height)
+    {
         this.height = height;
     }
 
-    public Cylinder(double volume, double s, double h, double height) {
+    public Cylinder(double volume, double s, double h, double height)
+    {
         super(volume, s, h);
         this.height = height;
     }
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "Cylinder{" +
                 "height=" + height +
                 ", s=" + s +
@@ -26,7 +32,8 @@ public class Cylinder  extends Pyramid
                 '}';
     }
 
-    public double getHeight() {
+    public double getHeight()
+    {
         return height;
     }
 }
