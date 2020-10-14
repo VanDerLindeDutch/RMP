@@ -1,6 +1,6 @@
 package Inheritance;
 
-public abstract class Shape implements Comparable<Shape> {
+public abstract class Shape implements Comparable<Shape>{
     protected double volume;
 
     public Shape() {

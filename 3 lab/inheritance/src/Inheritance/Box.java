@@ -21,11 +21,8 @@ public class Box extends Shape {
     }
 
     public void sort() {
-        try {
-            Arrays.sort(ShapesArr);
-        } catch (Exception ex) {
-            System.out.println(ex);
-        }
+
+        Arrays.sort(ShapesArr);
 
     }
 
