@@ -1,6 +1,5 @@
-package Converter.Factory;
-
-import Converter.BaseConverter;
+package Factory;
+import Converter.*;
 
 public abstract class Dialog {
     public void makeConvertion(double T) {

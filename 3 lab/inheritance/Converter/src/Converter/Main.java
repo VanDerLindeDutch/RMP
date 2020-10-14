@@ -1,9 +1,6 @@
 package Converter;
 
-import Converter.Factory.FahrenheitDialog;
-import Converter.Factory.KelvinDialog;
-import Converter.Factory.ReaumurDialog;
-
+import Factory.*;
 import java.util.Scanner;
 
 public class Main {

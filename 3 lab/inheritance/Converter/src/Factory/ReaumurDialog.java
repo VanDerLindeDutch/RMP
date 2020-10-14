@@ -1,4 +1,4 @@
-package Converter.Factory;
+package Factory;
 
 import Converter.BaseConverter;
 import Converter.ReaumurConverter;

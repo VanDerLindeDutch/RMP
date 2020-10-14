@@ -1,5 +1,4 @@
 package Converter;
-
 public abstract class BaseConverter {
     protected double degreesCelsius;
 
