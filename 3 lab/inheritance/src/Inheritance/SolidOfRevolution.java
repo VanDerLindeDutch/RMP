@@ -1,6 +1,5 @@
 package Inheritance;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Scanner;
 
@@ -32,7 +31,7 @@ public class SolidOfRevolution extends Shape {
         return Math.abs(Math.PI * coef * (f0 + 4 * f1 + f2));
     }
 
-    private static double @NotNull [] calculateAandB(Operationable operation) {
+    private static double[] calculateAandB(Operationable operation) {
         double x;
         double[] arr = new double[2];
         System.out.println("Input primary approximation");

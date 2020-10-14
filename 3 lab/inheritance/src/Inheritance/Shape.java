@@ -1,6 +1,6 @@
 package Inheritance;
 
-public abstract class Shape {
+public abstract class Shape implements Comparable<Shape> {
     protected double volume;
 
     public Shape() {
@@ -12,6 +12,11 @@ public abstract class Shape {
 
     protected double getVolume() {
         return volume;
+    }
+
+    @Override
+    public int compareTo(Shape shape) {
+        return (int)(Math.signum(volume - shape.volume));
     }
 
     @Override

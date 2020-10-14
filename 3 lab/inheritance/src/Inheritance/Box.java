@@ -20,6 +20,15 @@ public class Box extends Shape {
         }
     }
 
+    public void sort() {
+        try {
+            Arrays.sort(ShapesArr);
+        } catch (Exception ex) {
+            System.out.println(ex);
+        }
+
+    }
+
     @Override
     public String toString() {
         return "Box{" +
