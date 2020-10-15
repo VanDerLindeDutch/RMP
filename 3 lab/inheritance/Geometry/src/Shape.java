@@ -9,9 +9,6 @@ public abstract class Shape implements Comparable<Shape>{
         this.volume = volume;
     }
 
-    public double getVolume() {
-        return this.volume;
-    }
 
     @Override
     public int compareTo(Shape shape) {

@@ -12,7 +12,7 @@ public class Space<T extends Shape> {
     {
         double sum = 0;
         for(Shape i: shapes){
-            sum += i.getVolume();
+            sum += i.volume;
         }
         return sum;
     }

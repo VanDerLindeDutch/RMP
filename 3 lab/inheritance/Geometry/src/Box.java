@@ -1,35 +1,40 @@
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class Box extends Shape {
-    private Shape[] ShapesArr;
-    private int i;
+    private List<Shape> shapeList;
+    private double boxVolume, presentVolume;
 
-    public Box(int a) {
-        ShapesArr = new Shape[a];
-        i = 0;
+    public Box(double a) {
+        boxVolume = a;
+        presentVolume = 0;
+        shapeList = new ArrayList<>();
     }
     
     public void add(Shape shape) {
-        try {
-            ShapesArr[i] = shape;
-            i++;
-        } catch (Exception ex) {
-            System.out.println(ex.getMessage());
+        if(presentVolume< shape.volume){
+            shapeList.add(shape);
+            presentVolume+=shape.volume;
+        }
+        else {
+            System.out.println("Volume excedeed");
         }
     }
 
     public void sort() {
 
-        Arrays.sort(ShapesArr);
+        Collections.sort(shapeList);
 
     }
 
     @Override
     public String toString() {
         return "Box{" +
-                "ShapesArr=" + Arrays.toString(ShapesArr) +
+                "shapeList=" + shapeList +
                 '}';
     }
 }
