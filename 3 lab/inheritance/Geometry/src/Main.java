@@ -1,4 +1,4 @@
-
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,7 +14,8 @@ public class Main {
         System.out.println(box);
         box.sort();
         System.out.println(box);
-
+        Space<Shape> shapeSpace = new Space<>(Arrays.asList(cylinder,cylinder1, pyramid, cylinder2));
+        System.out.println(shapeSpace.getTotalVolume());
 //        SolidOfRevolution SOR = new SolidOfRevolution(2, 1, (x) -> x * x - 16);
 //        System.out.println(SOR.calculateVolume());
 

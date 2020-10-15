@@ -1,6 +1,6 @@
 
 public abstract class Shape implements Comparable<Shape>{
-    public double volume;
+    protected double volume;
 
     public Shape() {
     }
@@ -9,8 +9,8 @@ public abstract class Shape implements Comparable<Shape>{
         this.volume = volume;
     }
 
-    protected double getVolume() {
-        return volume;
+    public double getVolume() {
+        return this.volume;
     }
 
     @Override

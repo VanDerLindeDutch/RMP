@@ -10,7 +10,7 @@ public class Box extends Shape {
         ShapesArr = new Shape[a];
         i = 0;
     }
-
+    
     public void add(Shape shape) {
         try {
             ShapesArr[i] = shape;
