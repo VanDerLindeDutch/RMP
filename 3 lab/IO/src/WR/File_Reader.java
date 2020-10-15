@@ -1,11 +1,13 @@
+package WR;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class File_Reader {
-    List<String> file;
-    File_Reader(String path)
+    private List<String> file;
+    public File_Reader(String path)
     {
         try {
             file = new ArrayList<>();
@@ -23,7 +25,7 @@ public class File_Reader {
     public List<String> getFile() {
         if(file == null)
         {
-            System.out.println("NULLLLLLLLLLLLLLLLLLLLLLLLL");
+            System.out.println("NULL");
         }
         return file;
     }
