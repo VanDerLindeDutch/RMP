@@ -1,0 +1,104 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "sroffset": 10,
+    "continue": "-||"
+  },
+  "query": {
+    "searchinfo": {
+      "totalhits": 3176
+    },
+    "search": [
+      {
+        "ns": 0,
+        "title": "Java",
+        "pageid": 2506,
+        "size": 120162,
+        "wordcount": 8037,
+        "snippet": "<span class=\"searchmatch\">Java</span> — строго типизированный объектно-ориентированный язык программирования общего назначения, разработанный компанией Sun Microsystems (в последующем",
+        "timestamp": "2020-10-14T18:45:06Z"
+      },
+      {
+        "ns": 0,
+        "title": "Java Platform, Micro Edition",
+        "pageid": 44172,
+        "size": 7840,
+        "wordcount": 493,
+        "snippet": "<span class=\"searchmatch\">Java</span> Platform, Micro Edition (<span class=\"searchmatch\">Java</span> ME, ранее — <span class=\"searchmatch\">Java</span> 2 Micro Edition, J2ME) — подмножество платформы <span class=\"searchmatch\">Java</span> для устройств, ограниченных в ресурсах, например:",
+        "timestamp": "2020-10-03T09:06:46Z"
+      },
+      {
+        "ns": 0,
+        "title": "Java Virtual Machine",
+        "pageid": 109573,
+        "size": 13079,
+        "wordcount": 782,
+        "snippet": "<span class=\"searchmatch\">Java</span> Virtual Machine (сокращенно <span class=\"searchmatch\">Java</span> VM, JVM) — виртуальная машина <span class=\"searchmatch\">Java</span> — основная часть исполняющей системы <span class=\"searchmatch\">Java</span>, так называемой <span class=\"searchmatch\">Java</span> Runtime Environment",
+        "timestamp": "2020-09-11T12:03:29Z"
+      },
+      {
+        "ns": 0,
+        "title": "Sun Microsystems",
+        "pageid": 4777,
+        "size": 34492,
+        "wordcount": 2315,
+        "snippet": "микропроцессоров Xeon (Intel); известна как разработчик таких технологий как NFS и <span class=\"searchmatch\">Java</span>, а также поддерживала программное обеспечение с открытым исходным кодом,",
+        "timestamp": "2020-04-30T02:42:15Z"
+      },
+      {
+        "ns": 0,
+        "title": "Groovy",
+        "pageid": 223430,
+        "size": 19851,
+        "wordcount": 1169,
+        "snippet": " разработанный для платформы <span class=\"searchmatch\">Java</span> как дополнение к языку <span class=\"searchmatch\">Java</span> с возможностями Python, Ruby и Smalltalk. Использует <span class=\"searchmatch\">Java</span>-подобный синтаксис с динамической",
+        "timestamp": "2020-06-06T12:12:32Z"
+      },
+      {
+        "ns": 0,
+        "title": "Scala (язык программирования)",
+        "pageid": 162092,
+        "size": 30353,
+        "wordcount": 1649,
+        "snippet": "платформ <span class=\"searchmatch\">Java</span> и JavaScript. По мнению Джеймса Стрэчена[en], создателя языка программирования Groovy, Scala может стать преемником языка <span class=\"searchmatch\">Java</span>. Язык был",
+        "timestamp": "2020-10-09T13:44:01Z"
+      },
+      {
+        "ns": 0,
+        "title": "JavaScript",
+        "pageid": 11922,
+        "size": 157796,
+        "wordcount": 9020,
+        "snippet": "оказали влияние многие языки, при разработке была цель сделать язык похожим на <span class=\"searchmatch\">Java</span>. Языком JavaScript не владеет какая-либо компания или организация, что отличает",
+        "timestamp": "2020-10-04T16:24:43Z"
+      },
+      {
+        "ns": 0,
+        "title": "Eclipse (среда разработки)",
+        "pageid": 80380,
+        "size": 43475,
+        "wordcount": 2259,
+        "snippet": "IDE» для разработки ПО на множестве языков (например, наиболее популярный «<span class=\"searchmatch\">Java</span> IDE», поддерживавшийся изначально, не полагается на какие-либо закрытые расширения",
+        "timestamp": "2020-09-11T12:07:38Z"
+      },
+      {
+        "ns": 0,
+        "title": "Kotlin",
+        "pageid": 4538169,
+        "size": 12122,
+        "wordcount": 752,
+        "snippet": "типизированный, объектно-ориентированный язык программирования, работающий поверх <span class=\"searchmatch\">Java</span> Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется",
+        "timestamp": "2020-10-12T05:45:47Z"
+      },
+      {
+        "ns": 0,
+        "title": "NetBeans",
+        "pageid": 120563,
+        "size": 19580,
+        "wordcount": 1349,
+        "snippet": "интегрированная среда разработки приложений (IDE) на языках программирования <span class=\"searchmatch\">Java</span>, Python, PHP, JavaScript, C, C++, Ада и ряда других. Проект NetBeans IDE",
+        "timestamp": "2020-09-20T14:01:57Z"
+      }
+    ]
+  }
+}

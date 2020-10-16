@@ -3,18 +3,18 @@ package WR;
 import java.io.*;
 import java.util.ArrayList;
 
-public class File_Writer {
+public class File_Writer<T> {
     private String path;
 
     public File_Writer(String path) {
         this.path = path;
     }
 
-    public void writeString(String string){
-        try(FileWriter fw =new FileWriter(path, true)) {
+    public void writeString(T string, boolean A){
+        try(FileWriter fw =new FileWriter(path, A)) {
             BufferedWriter streamInFile = new BufferedWriter(fw);
             streamInFile.newLine();
-            streamInFile.write(string);
+            streamInFile.write(string.toString());
             streamInFile.close();
         }catch (FileNotFoundException ex){
             System.out.println(ex);
