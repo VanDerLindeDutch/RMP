@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import WR.*;
+
 public class FrequencyDict {
     Map<String, Integer> dict;
     String file;

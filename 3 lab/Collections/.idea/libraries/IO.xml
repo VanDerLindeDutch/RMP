@@ -4,6 +4,8 @@
       <root url="file://$PROJECT_DIR$/../IO/out/production/IO" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../IO/src" />
+    </SOURCES>
   </library>
 </component>

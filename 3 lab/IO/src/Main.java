@@ -14,7 +14,7 @@ public class Main {
         file_writer.writeString("qweqwessdsdasdsdd", true);
         File_Reader fileReader1 = new File_Reader("IO.txt");
         System.out.println(fileReader1.getString());
-        File_Writer.Unite2Files(file_writer, new File_Writer("IS.txt"), "QW.txt");
+//        File_Writer.Unite2Files(file_writer, new File_Writer("IS.txt"), "QW.txt");
         (new CopyFile(path)).copyFile("IK.txt");
 
 
