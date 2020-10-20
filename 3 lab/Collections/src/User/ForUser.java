@@ -1,3 +1,5 @@
+package User;
+
 public enum ForUser {
     VASYA("VASYA"),
     PETYA("PETYA"),

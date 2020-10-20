@@ -1,3 +1,5 @@
+package User;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
@@ -6,7 +8,7 @@ import java.util.Scanner;
 public class UserMap {
     private Map<User, Integer> users;
 
-    UserMap() {
+    public UserMap() {
         users = new HashMap<>();
         ForUser[] forUsers = ForUser.values();
         for (int i = 0; i < 5; i++) {
@@ -18,7 +20,15 @@ public class UserMap {
         System.out.println("Enter an user name");
         Scanner in = new Scanner(System.in);
         String name = in.nextLine();
-        return users.get();
+        in.close();
+        for(User i: users.keySet()){
+            if(i.getName().equals(name)){
+                return users.get(i);
+            }
+        }
+        System.out.println("User not found");
+        return -1;
+
     }
 
     @Override
