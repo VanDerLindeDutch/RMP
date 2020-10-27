@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class File_Writer<T> {
-    private String path;
+    private final String path;
 
     public File_Writer(String path) {
         this.path = path;
@@ -16,10 +16,8 @@ public class File_Writer<T> {
             streamInFile.newLine();
             streamInFile.write(string.toString());
             streamInFile.close();
-        }catch (FileNotFoundException ex){
-            System.out.println(ex);
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (IOException ex){
+            ex.printStackTrace();
         }
     }
 

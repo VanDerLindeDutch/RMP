@@ -6,17 +6,17 @@ import java.util.Collections;
 import java.util.List;
 
 public class Box extends Shape {
-    private List<Shape> shapeList;
-    private double boxVolume, presentVolume;
+    private final List<Shape> shapeList;
+    private double presentVolume;
 
     public Box(double a) {
-        boxVolume = a;
+        volume = a;
         presentVolume = 0;
         shapeList = new ArrayList<>();
     }
     
     public void add(Shape shape) {
-        if(presentVolume< shape.volume){
+        if(presentVolume+shape.volume< volume){
             shapeList.add(shape);
             presentVolume+=shape.volume;
         }

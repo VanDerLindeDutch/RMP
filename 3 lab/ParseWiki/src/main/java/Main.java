@@ -1,5 +1,5 @@
 import com.google.gson.*;
-import WR.File_Writer;
+import WR.*;
 import com.google.gson.reflect.TypeToken;
 
 import javax.tools.JavaFileObject;

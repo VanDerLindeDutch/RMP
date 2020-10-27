@@ -1,26 +1,25 @@
 package WR;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class File_Reader {
     private List<String> file;
 
     public File_Reader(String path) {
-        try {
+        try (BufferedReader streamFile = new BufferedReader(new FileReader(path))){
             file = new ArrayList<>();
-            BufferedReader streamFile = new BufferedReader(new FileReader(path));
             while (streamFile.ready()) {
                 file.add(streamFile.readLine());
             }
-        } catch (FileNotFoundException ex) {
+        } catch (IOException ex) {
             ex.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
+
 
     public List<String> getFile() throws NullPointerException {
         if (file == null) throw new NullPointerException("NULL");

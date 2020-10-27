@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="WR">
+  <library name="IO">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../IO/out/production/IO" />
     </CLASSES>
